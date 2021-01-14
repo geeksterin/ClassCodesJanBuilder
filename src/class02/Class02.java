@@ -13,15 +13,11 @@ public class Class02 {
 //        }
 
         for (int lineno = 1;lineno <= 5; lineno++){
-            // in each iteration i have to print few numbers
-            // print number from 1 to lineno.
             for(int counter = 1;counter <= lineno;counter++){
                 System.out.print(counter);
             }
-            //either
+
             System.out.print("\n");
-            //or
-//            System.out.println();
         }
 
 
