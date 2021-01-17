@@ -36,15 +36,15 @@ public class Patterns {
 //            System.out.println();
 //        }
 
-//        for (int i = 1;i<=5;i++){
-//            // print x space
-//            printSpace(5-i);
-//            //print y stars
-//            printStar(2*i - 1);
-//            // print next line
-//            System.out.println();
-//
-//        }
+        for (int i = 1;i<=5;i++){
+            // print x space
+            printSpace(5-i);
+            //print y stars
+            printStar(2*i - 1);
+            // print next line
+            System.out.println();
+
+        }
 
         for (int i = 1;i<=5;i++){
             // print x space
