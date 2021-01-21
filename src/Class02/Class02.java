@@ -1,4 +1,4 @@
-package class02;
+package Class02;
 
 public class Class02 {
 
