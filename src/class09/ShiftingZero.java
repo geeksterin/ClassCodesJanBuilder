@@ -31,11 +31,27 @@ public class ShiftingZero {
         }
     }
     public static void swap(int arr[], int start, int end) {
-        int temp = arr[start];
-        arr[start] = arr[end];
-        arr[end] = temp;
+        int temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp;
     }
 }
 
 //example
 //1 0 1 0 1 1 0 0 1
+
+// 9, 2, 11, 32, 10, 3, 1
+
+
+//Insertion Sort
+
+// 2, 9, 11, 32, 10, 3, 1
+// 2, 9, 10, 11, 32, 3, 1
+// 2, 3, 9, 10, 11, 32, 1
+// 1, 2, 3, 9, 10, 11, 32
+
+//Merge sort - recursion
+//quick sort - recursion
+//heap sort  - heap data structure
+
+//heap
