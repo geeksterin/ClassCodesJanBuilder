@@ -29,9 +29,16 @@ public class PrefixSum {
         for(int i=1;i<n;i++) {
             prefix[i] = prefix[i-1] + distance[i];
         }
+        for(int i=0;i<k;i++) {
+            Query query = queries[i]; //3....4
+            int result = 0;
+            if(query.left == 0)
+                result = prefix[query.right];
+            else
+                result = prefix[query.right] - prefix[query.left - 1];
+            System.out.println(result);
+        }
     }
 }
-// 300, 400, 300 , 500
-// 300, 700, 1000, 1500
-// 2 , 5   - 1
-// 1 , 6   - 2
+
+//{-2, -3, 4, -1, -2, 1, 5, -3}
