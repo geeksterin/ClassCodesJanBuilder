@@ -35,7 +35,7 @@ public class FindingSum {
                     break;
                 }
                 if(elementToFind < b[mid]) {
-                    end = mid;
+                    end = mid - 1;
                 } else {
                     start = mid + 1;
                 }
