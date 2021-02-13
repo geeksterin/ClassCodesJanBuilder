@@ -6,7 +6,6 @@ import java.util.Stack;
 public class recentGreaterElement {
 
     public static void main(String[] args) {
-
         int[] arr = {5,3,6,2,7,9,4,8};
         ArrayList<Integer> ans = new ArrayList<>();
         // create a stack
