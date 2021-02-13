@@ -1,5 +1,8 @@
 package Class12;
 
+import java.util.*;
+
+
 public class BinarySearch2 {
 
     public static void main(String[] args) {
@@ -24,7 +27,6 @@ public class BinarySearch2 {
         }
 
         System.out.println(lastIndexOfOccurence);
-
     }
 
 }
